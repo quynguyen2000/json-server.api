@@ -65,16 +65,23 @@
       "image": "https://dictionary.cambridge.org/vi/images/thumb/Tshirt_noun_001_18267.jpg?version=5.0.345",
       "description": "ao thun cho nam",
       "size": "M"
-    }
-  ],
-  "carts": [
+    },
     {
       "id": 1,
-      "product_id": 1,
-      "user_id": 1
+      "name": "Ao thun",
+      "price": 20000,
+      "image": "https://dictionary.cambridge.org/vi/images/thumb/Tshirt_noun_001_18267.jpg?version=5.0.345",
+      "description": "ao thun cho nam",
+      "size": "M"
     }
   ],
   "cart_item": [
+    {
+      "id": 1,
+      "cart_id": 1,
+      "order_id": 1,
+      "quantity": 2
+    },
     {
       "id": 1,
       "cart_id": 1,
@@ -87,6 +94,23 @@
       "id": 1,
       "user_id": 1,
       "order_code": "MAUAONAM001"
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "order_code": "MAUAONAM001"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 1,
+      "product_id": 1,
+      "user_id": 1
     }
   ]
 }
