@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Quang",
+      "email": "quang.nguyen-ojt07@devplus.edu.vn",
+      "phone": "0987323723",
+      "address": "Da Nang"
+    },
+    {
+      "id": 2,
+      "name": "Nguyen",
+      "email": "nguyen.tran-ojt07@devplus.edu.vn",
+      "phone": "0981323721",
+      "address": "Da Nang"
+    },
+    {
+      "id": 3,
+      "name": "Phuc",
+      "email": "phuc.nguyen-ojt07@devplus.edu.vn",
+      "phone": "0987323722",
+      "address": "Da Nang"
+    },
+    {
+      "id": 4,
+      "name": "Khoa",
+      "email": "khoa.nguyen-ojt07@devplus.edu.vn",
+      "phone": "0987323724",
+      "address": "Da Nang"
+    },
+    {
+      "id": 5,
+      "name": "Huong",
+      "email": "huong.vu-ojt07@devplus.edu.vn",
+      "phone": "0987323725",
+      "address": "Da Nang"
+    },
+    {
+      "id": 6,
+      "name": "Lam",
+      "email": "lam.vu-ojt07@devplus.edu.vn",
+      "phone": "0987323726",
+      "address": "Da Nang"
+    },
+    {
+      "id": 7,
+      "name": "Tuan",
+      "email": "tuan.hoang-ojt07@devplus.edu.vn",
+      "phone": "0987323727",
+      "address": "Da Nang"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ao thun",
+      "price": 20000,
+      "image": "https://dictionary.cambridge.org/vi/images/thumb/Tshirt_noun_001_18267.jpg?version=5.0.345",
+      "description": "ao thun cho nam",
+      "size": "M"
+    }
+  ],
+  "carts": [{ "id": 1, "product_id": 1, "user_id": 1 }],
+  "cart_item": [
+    {
+      "id": 1,
+      "cart_id": 1,
+      "order_id": 1,
+      "quantity": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "order_code": "MAUAONAM001"
+    }
+  ]
+}
